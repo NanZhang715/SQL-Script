@@ -50,16 +50,3 @@ for i in range(5,59):
 from functools import reduce 
 a =reduce(lambda x,y: pd.concat([x,y]),output)
 
-
-import os 
-
-os.getcwd()
-
-ys = pd.read_csv('/Users/nzhang/Desktop/yswz.csv')
-
-type(output[0])
-
-
-400-600
-0-1
-
