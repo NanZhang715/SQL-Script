@@ -8,12 +8,12 @@ def fetch_data(sql):
     
     #Connect to the database
     
-    connection = pymysql.connect(host='118.178.119.233',
-                                 user='data_center',
-                                 password='DataCenter@123##@@',
-                                 db='data_swap_beijing',
-                                 charset='utf8mb4',
-                                 port=36063,
+    connection = pymysql.connect(host='',
+                                 user='',
+                                 password='',
+                                 db='',
+                                 charset='',
+                                 port=,
                                  cursorclass=pymysql.cursors.DictCursor,
                                  connect_timeout=86400)
 
